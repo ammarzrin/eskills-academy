@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background-image: url("../images/page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+header {
+  background-color: #00ffff;
+  padding: 20px;
+}
+
+header img {
+  margin: 0px 20px;
+}
+
+.always-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-container {
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  background-color: #061556;
+  font-family: "Belanosima", sans-serif;
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  color: #00ffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+footer {
+  display: block;
+  background-color: #061556;
+  padding: 20px;
+  clear: both;
+  position: sticky;
+  top: 100%;
+}
+
+main {
+  padding: 0 20px;
+}
+
+.main-content,
+aside {
+  float: left;
+}
+
+.main-content {
+  width: 60%;
+  padding: 20px;
+}
+
+aside {
+  width: 40%;
+  padding: 20px;
+  max-width: 500px;
+}
+
+h1 {
+  font-family: "Belanosima", sans-serif;
+  color: #061556;
+  font-size: 3.2vw;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+footer p {
+  color: #00ffff;
+  text-align: center;
+}
+
+.bb {
+  display: block;
+  min-width: 50%;
+  padding: 10px 15px;
+  margin: 10px auto;
+  font-family: "Belanosima", sans-serif;
+  font-size: 2vw;
+  color: #061556;
+  background-color: #00ffff;
+  border-radius: 10px;
+}
+
+.use-case-buttons a {
+  text-decoration: none;
+}
+
+.bb:hover {
+  background-color: #061556;
+  color: #00ffff;
+}
+
+@media screen and (max-width: 600px) {
+  section,
+  aside {
+    width: 100%;
+  }
+}
